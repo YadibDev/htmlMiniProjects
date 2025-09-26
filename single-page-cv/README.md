@@ -6,10 +6,12 @@ It serves as a practice project for learning HTML structure, semantic elements, 
 ---
 
 ## 🎯 Purpose
+
 The main purpose of this project is **learning HTML as a beginner**.  
 By building a personal CV page and ensure that i get a good understanding of the basics of html .
 
 ## ✨ Features
+
 - Uses **semantic HTML5 tags** (`header`, `main`, `section`, `footer`).
 - Includes **Open Graph (OG) tags** for improved social media previews.
 - Simple **responsive design** setup with `meta viewport`.
@@ -28,6 +30,6 @@ You’re free to use and modify it for learning purposes.
 
 ## 📝 Project Link
 
-This project follows the **Single Page CV** challenge from [roadmap.sh](https://roadmap.sh/projects/single-page-cv).
+This project follows the **Single Page CV** challenge from <a href="https://roadmap.sh/projects/single-page-cv" target="_blank"> Single Page CV (road map) </a>
 
 @copyright yassine adib 2025/26/09 yy/mm/dd
