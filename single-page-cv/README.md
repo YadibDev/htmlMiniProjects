@@ -32,4 +32,5 @@ You’re free to use and modify it for learning purposes.
 This project follows the [Single Page CV](https://roadmap.sh/projects/single-page-cv) challenge from roadmap.sh.
 
 
-@copyright yassine adib 2025/26/09 yy/mm/dd
+@copyright yassine adib 2025/26/09 yy/mm/dd   
+
