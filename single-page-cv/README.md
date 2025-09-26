@@ -29,7 +29,7 @@ This project is licensed under the MIT License.
 You’re free to use and modify it for learning purposes.
 
 ## 📝 Project Link
+This project follows the [Single Page CV](https://roadmap.sh/projects/single-page-cv) challenge from roadmap.sh.
 
-This project follows the **Single Page CV** challenge from <a href="https://roadmap.sh/projects/single-page-cv" target="_blank" rel="noopener noreferrer"> Single Page CV (road map) </a>
 
 @copyright yassine adib 2025/26/09 yy/mm/dd
