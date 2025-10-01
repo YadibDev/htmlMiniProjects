@@ -120,30 +120,47 @@
           <div class="our-form">
             <form>
               <div class="single-field">
-                <label for="name">الإسم االخاص بك</label>
-                <input  id="name" type="text" name="name" placeholder="إسمك" maxlength="100" autofocus/>
+                <input
+                  id="name"
+                  type="text"
+                  name="name"
+                  placeholder="إسمك"
+                  maxlength="100"
+                  autofocus
+                />
               </div>
               <div class="single-field">
-                <label for="email">الإيميل الخاص بك</label>
                 <input
                   id="email"
                   type="email"
                   name="name"
                   placeholder="gmail"
                   maxlength="100"
+                  autocomplete="none"
                 />
               </div>
               <div class="single-field">
-                <label for="msg">الرسالة الخاصة بك</label>
-                <textarea maxlength="2000" id="msg" name="msage" placeholder="قم بملأ الخانة برسالتك"></textarea>
+                <textarea
+                  rows="15"
+                  cols="18"
+                  maxlength="2000"
+                  id="msg"
+                  name="msage"
+                  placeholder="قم بملأ الخانة برسالتك"
+                ></textarea>
               </div>
-              <button type="reset">مسح الكل</button>
-              <button type="submit">إرسال</button>
+              <button type="reset" id="reset-but">مسح الكل</button>
+              <button type="submit" id="send-but">إرسال</button>
             </form>
           </div>
         </div>
       </div>
     </main>
-    <footer id="foot-copyright"></footer>
+    <footer id="foot-copyright">
+      <p id="copyright">
+        &copy copyright 2025/10/01 by yadib i'm just a beginer right now
+        toooooooooo beginer
+      </p>
+    </footer>
   </body>
 </html>
