@@ -15,10 +15,10 @@
       <nav class="navbar">
         <ul>
           <li><a href="#about-section">من نحن</a></li>
-          <li><a href="">الفيديوهات</a></li>
-          <li><a href="">الصوتيات</a></li>
-          <li><a href="">الخصوصية</a></li>
-          <li><a href="">معلومات عن الموقع</a></li>
+          <li><a href="#servises-available">الخدمات</a></li>
+          <li><a href="#videos">الفيديوهات</a></li>
+          <li><a href="#contact-us">للتواصل معنا</a></li>
+          <li><a href="#foot-copyright">معلومات عن الموقع</a></li>
         </ul>
       </nav>
       <div class="head-title">
@@ -44,11 +44,106 @@
             بأسعار مناسبة مع ضمان كامل للحقوق
           </p>
         </div>
-        <div id="workers">
-          <h2>الخدمات المتوفرة</h2>
+
+        <div id="servises-available">
+          <h2>الخدمات المتوفرة حاليا :</h2>
+          <div class="job-offers">
+            <div class="servises">
+              <img
+                src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2017/09/shell-scripting.jpg?q=50&fit=crop&w=1488&h=837&dpr=1.5"
+                class="imgs-jobs"
+              />
+              <h3>ساقوم بإنشاء لك مينيشل من الصفر</h3>
+              <p>
+                تستطيع استخدام مهام بسيطة كمعرفة موقعك بالكمبيوتر<br />
+                و و و وو و و
+              </p>
+            </div>
+
+            <div class="servises">
+              <img
+                src="https://i.ytimg.com/vi/1Xx0P1S180M/maxresdefault.jpg"
+                class="imgs-jobs"
+              />
+              <h3>ساقوم بإنشاء لك لعبة صغيرة باستخدام C</h3>
+              <p>اللعبة عبارة عن متاهة او لاعب داخل متاهة وهنالك ابواب</p>
+            </div>
+
+            <div class="servises">
+              <a href="https://www.youtube.com/watch?v=MIL2BK02X8A">
+                <img
+                  src="https://i.ytimg.com/vi/MIL2BK02X8A/sddefault.jpg"
+                  class="imgs-jobs"
+                />
+              </a>
+              <h3>كورس خاص بالبوينترز</h3>
+              <p>
+                في هذا الكورس ستتعلم اساسيات البوينترز و طريقة استخدامهم بطريقة
+                الصحيحة
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="videos">
+          <h2>مجموعة من الفيديوهات المتنوعة للطبيعة</h2>
+          <div class="single-video">
+            <video controls>
+              <source
+                src="https://cdn.pixabay.com/video/2024/12/04/244839_large.mp4"
+              />
+            </video>
+            <p>منظر جميل لأمواج تتحرك بشاطئ ما</p>
+          </div>
+          <div class="single-video">
+            <video controls>
+              <source
+                src="https://cdn.pixabay.com/video/2021/09/11/88207-602915574_large.mp4"
+              />
+              هنالك خطب ما بالفيديو
+            </video>
+            <p>الجبال والسماء</p>
+          </div>
+          <div class="single-video">
+            <video controls>
+              <source
+                src="https://cdn.pixabay.com/video/2024/09/06/230060_large.mp4"
+              />
+              هنالك خطب ما بالفيديو
+            </video>
+            <p>طائر يحاول اصطياد للبقاء حيا</p>
+          </div>
+        </div>
+
+        <div id="contact-us">
+          <h2>للتواصل معنا</h2>
+          <div class="our-form">
+            <form>
+              <div class="single-field">
+                <label for="name">الإسم االخاص بك</label>
+                <input  id="name" type="text" name="name" placeholder="إسمك" maxlength="100" autofocus/>
+              </div>
+              <div class="single-field">
+                <label for="email">الإيميل الخاص بك</label>
+                <input
+                  id="email"
+                  type="email"
+                  name="name"
+                  placeholder="gmail"
+                  maxlength="100"
+                />
+              </div>
+              <div class="single-field">
+                <label for="msg">الرسالة الخاصة بك</label>
+                <textarea maxlength="2000" id="msg" name="msage" placeholder="قم بملأ الخانة برسالتك"></textarea>
+              </div>
+              <button type="reset">مسح الكل</button>
+              <button type="submit">إرسال</button>
+            </form>
+          </div>
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer id="foot-copyright"></footer>
   </body>
 </html>
